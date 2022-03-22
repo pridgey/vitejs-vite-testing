@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "target": "es5",
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@utilities": ["./src/utilities"]
+    }
+  },
+  "exclude": [
+    "build",
+    "configmap",
+    "coverage",
+    "node_modules",
+    "public",
+    "server",
+    "tasks"
+  ]
+}
